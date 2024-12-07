@@ -19,6 +19,8 @@ public class lagiiiiinn extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         
+        System.out.println("Hello imn was here");
+
         // Custom background
         setContentPane(new JPanel() {
             @Override

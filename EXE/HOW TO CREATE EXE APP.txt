@@ -1,0 +1,7 @@
+HOW TO CREATE EXE APP:
+
+Step 1: Run cmd on the folder of the Java app.
+
+Step 2: Run this below command on the Windows command prompt:
+
+RMDIR "EXE\PAYROLL SYSTEM" /S /Q && jpackage --type app-image --name "PAYROLL SYSTEM" --input dist/ --dest EXE/ --main-jar Pinakabago.jar
